@@ -6,22 +6,28 @@
     <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
 </head>
         
-<body>  
+<body> 
+<center>
+    <h2>Welcome to the Chat Room</h2> 
+    <br>
     <div class="form-container">
-        <p class="form-header">Login</p>
+        <p class="form-header"><b>Login</b></p>
         <form method="POST" action="/login">
             <label>Username:</label>
             <input type="text" id="username" name="username"><br>
             <label>Password:</label>
             <input type="password" id="password" name="password"><br>
+            <br>
             <input type="submit" id="login" value="Login">
         </form>
     </div>
-    <a id="signUpLink" href="/signup">Sign Up</a>
+    <br>
+    <a id="signUpLink" href="/signup">Not a Member yet? Sign Up</a>
     <hr>
     <span id="loginMsg">
     <%= msg %>
     </span>
+</center>
 </body>
         
 </html>
