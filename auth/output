@@ -1,0 +1,134 @@
+nohup: ignoring input
+before / Route
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T07:26:53.918Z,
+     originalMaxAge: 2627999999,
+     httpOnly: true },
+  msg: 'Authenticated as tay',
+  user: '5a28609d639f58012b883ef2',
+  username: 'tay' }
+/ Route if user
+[0mGET / [36m304 [0m21.714 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.764 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m4.308 ms - -[0m
+[0mGET /user/profile [36m304 [0m12.673 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T07:29:46.863Z,
+     originalMaxAge: 2627999999,
+     httpOnly: true },
+  msg: 'Authenticated as tay',
+  user: '5a28609d639f58012b883ef2',
+  username: 'tay' }
+/ Route if user
+[0mGET / [36m304 [0m1.716 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m10.111 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m10.069 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.136 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T18:00:46.120Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m7.808 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m2.124 ms - 735[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.787 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m1.445 ms - 200[0m
+[0mPOST /login [36m302 [0m18.932 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.765 ms - 736[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.074 ms - -[0m
+/signup Route
+[0mGET /signup [32m200 [0m1.463 ms - 785[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.979 ms - -[0m
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+(node:11062) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+In exports.signup
+null
+[0mPOST /signup [36m302 [0m18.561 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T18:01:01.449Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  msg: 'Authenticated as user',
+  user: '5a28f53d441719362bfce025',
+  username: 'user' }
+/ Route if user
+[0mGET / [32m200 [0m1.995 ms - 782[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.692 ms - -[0m
+[0mGET /javascripts/my_app.js [32m200 [0m2.837 ms - 401[0m
+[0mGET /user/profile [32m200 [0m2.800 ms - 151[0m
+/user Route
+[0mGET /user [32m200 [0m1.908 ms - 1225[0m
+[0mGET /stylesheets/style.css [36m304 [0m8.464 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m10.043 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.706 ms - -[0m
+[0mPOST /user/update [36m302 [0m6.405 ms - 54[0m
+/user Route
+[0mGET /user [32m200 [0m1.041 ms - 1217[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.974 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.539 ms - -[0m
+[0mGET /user/profile [32m200 [0m1.461 ms - 166[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T18:01:06.337Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  msg: 'User Updated.',
+  user: '5a28f53d441719362bfce025',
+  username: 'user',
+  color: 'blue' }
+/ Route if user
+[0mGET / [32m200 [0m2.107 ms - 778[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.542 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.957 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.340 ms - -[0m
+/user Route
+[0mGET /user [36m304 [0m0.855 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m4.183 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m2.337 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.233 ms - -[0m
+[0mPOST /user/update [36m302 [0m1.892 ms - 54[0m
+/user Route
+[0mGET /user [36m304 [0m0.796 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.421 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m2.686 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.534 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T18:01:14.752Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  msg: 'User Updated.',
+  user: '5a28f53d441719362bfce025',
+  username: 'user',
+  color: 'blue' }
+/ Route if user
+[0mGET / [36m304 [0m2.850 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.399 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.461 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.264 ms - -[0m
+/logout Route
+[0mGET /logout [36m302 [0m1.284 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.073 ms - 721[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.755 ms - -[0m
